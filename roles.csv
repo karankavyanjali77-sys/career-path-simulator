@@ -1,0 +1,5 @@
+Role_Title,Required_Skills,Avg_Salary,Level
+Data Scientist,"python, machine learning, sql, statistics",90000,Mid
+Senior Software Engineer,"java, spring, system design, aws",120000,Senior
+ML Engineer,"python, deep learning, pytorch, mlops",130000,Senior
+Backend Engineer,"java, api, databases, cloud",110000,Mid
