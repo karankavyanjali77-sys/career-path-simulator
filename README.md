@@ -1,31 +1,124 @@
-# Career Path Simulator — Intelligent Decision Support System
+# 🚀 AI Career Path Simulator
 
-## 📌 Overview
-Career Path Simulator is a deployed interactive application that recommends suitable technology career paths based on user inputs, preferences, and skill indicators.
+An interactive **AI-powered career recommendation web app** that analyzes user skills and experience to suggest suitable tech career paths, expected salaries, missing skills, and learning roadmaps.
 
-The system acts as a structured decision-support engine and can be extended into a machine-learning recommendation model.
+Built to demonstrate **end-to-end data → logic → deployed product workflow** using Python and Streamlit.
 
-## 🚀 Features
-- Interactive questionnaire
-- Rule-based recommendation engine
-- Dynamic role suggestions
-- User-friendly interface
-- Deployed web application
+---
 
-## 🧠 Logic Architecture
-User Inputs → Skill Evaluation → Rule Engine → Career Recommendation
+## 🌐 Live Demo
 
-## 🛠 Tech Stack
-Python, Streamlit
+👉 Paste your deployed Streamlit link here
+`https://your-app-link.streamlit.app`
 
-## 📷 Screenshots
-(Add screenshots)
+---
+
+## 📌 Features
+
+* ✅ Input skills and experience level
+* ✅ Predict matching tech career roles
+* ✅ View average & predicted salary ranges
+* ✅ Identify missing skills for each role
+* ✅ Get personalized learning roadmap suggestions
+* ✅ Clean interactive UI built with Streamlit
+
+---
+
+## 🖼️ Screenshots
+
+### Home Interface
+
+![Home](home.png)
+
+### Career Prediction Results
+
+![Results](analysis.png)
+
+*(Make sure filenames match your repo images. Replace if needed.)*
+
+---
+
+## 🧠 How It Works
+
+1. User enters:
+
+   * Skills (comma separated)
+   * Years of experience
+
+2. System:
+
+   * Matches skills against predefined role dataset
+   * Scores compatibility
+   * Predicts best career paths
+   * Highlights missing skills
+   * Suggests learning roadmap
+
+3. Outputs:
+
+   * Ranked role matches
+   * Salary insights
+   * Skill gaps
+
+---
+
+## 🛠️ Tech Stack
+
+* **Python**
+* **Pandas / NumPy**
+* **Streamlit**
+* Basic ML-style scoring logic
+* Data analysis & visualization
+
+---
+
+## 📂 Project Structure
+
+```
+AI-Career-Simulator/
+│
+├── app.py
+├── roles_dataset.csv
+├── home.png
+├── analysis.png
+├── requirements.txt
+└── README.md
+```
+
+---
 
 ## ▶️ Run Locally
-pip install -r requirements.txt  
-streamlit run app.py
 
-## 🔮 Future Improvements
-- ML-based role prediction model
-- Dataset-driven recommendations
-- Resume-based career suggestions
+```bash
+git clone https://github.com/yourusername/yourrepo.git
+cd yourrepo
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 🎯 Purpose of This Project
+
+This project demonstrates my ability to:
+
+* Build real-world AI-style applications
+* Convert datasets into usable decision-support tools
+* Develop interactive deployed web apps
+* Design user-focused intelligent systems
+
+---
+
+## 👩‍💻 Author
+
+**Kavyanjali Karan**
+Computer Science Engineering (AI/ML focus)
+Building practical AI systems & analytics tools
+
+LinkedIn: add-link-here
+GitHub: add-link-here
+
+---
+
+## ⭐ If you like this project
+
+Give it a star ⭐ and feel free to fork or contribute!
